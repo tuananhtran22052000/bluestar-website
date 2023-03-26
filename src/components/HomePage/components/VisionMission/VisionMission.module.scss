@@ -1,0 +1,92 @@
+.container{
+    background-image: url('../../../../../image/backgroundVision.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:122px ;
+    position: relative;
+    &::before{
+        content: '';
+        background: linear-gradient(180deg, #0E0F21 0%, rgba(14, 15, 33, 0.5) 50.52%, #0E0F21 100%);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 1;
+    }
+    .row{
+        
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 0 200px;
+        .contentImg{
+            margin-right: 50px;
+            z-index: 99;
+            .img{
+                width: 450px;
+                height: 440px;
+            }
+        }
+        .content{
+            z-index: 99;
+            .title{
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 16px;
+            }
+            .text{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 32px;
+                color: #D6D6D6;
+                width: 550px;
+            }
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .row{
+            flex-direction: column;
+            padding: 0 10px;
+            .contentImg{
+                width: 100%;
+                margin-right: 0;
+                z-index: 99;
+                margin-bottom: 20px;
+                .img{
+                    width: 100%;
+                    height: 440px;
+                }
+            }
+            .content{
+                width: 100%;
+                /* justify-content: center; */
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .text{
+                    width:100%;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+        .row{
+            flex-direction: column;
+            padding: 0 100px;
+            .contentImg{
+                width: 100%;
+                margin-right: 0;
+                z-index: 99;
+                margin-bottom: 20px;
+                .img{
+                    width: 100%;
+                    height: 440px;
+                }
+            }
+        }
+    }
+}

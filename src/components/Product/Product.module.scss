@@ -1,0 +1,65 @@
+.container{
+    background-color:#0e0f21;
+    .content{
+        background-image: url('../../../image/SLbackground.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .header{
+            background-color: transparent;
+        }
+        .Platform{
+            margin-top: 214px;
+            padding-bottom: 104px;
+        }
+        
+    }
+    .introduce{
+        margin-top: 66px;
+        padding-bottom: 357px
+    }
+    @media only screen and (max-width: 470px) {
+        padding-bottom: 100px;
+        .content{
+            
+            .Platform{
+                margin-top: 100px;
+                padding-bottom: 104px;
+            }
+            
+        }
+        .introduce{
+            margin-top: 66px;
+            padding-bottom: 200px
+        }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        padding-bottom: 100px;
+        .content{
+            
+            .Platform{
+                margin-top: 100px;
+                padding-bottom: 104px;
+            }
+            
+        }
+        .introduce{
+            margin-top: 66px;
+            padding-bottom: 200px
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+        padding-bottom: 100px;
+        .content{
+            
+            .Platform{
+                margin-top: 100px;
+                padding-bottom: 104px;
+            }
+            
+        }
+        .introduce{
+            margin-top: 66px;
+            padding-bottom: 200px
+        }
+    }
+}

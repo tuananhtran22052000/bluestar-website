@@ -1,0 +1,103 @@
+.slickSliderDots{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            margin: 0 4px;
+            button {
+                background: white;
+                height: 8px;
+                width: 35px;
+                overflow: hidden;
+                color: red;
+                border: none;
+                border-radius: 4px;
+            }
+            &.slick-active {
+                button {
+                    background: blue;
+                    color: yellow;
+                }
+            }
+        }
+    }
+
+}
+.container{
+    padding: 40px 40px 0;
+    width: 100%;
+    background-color:#0e0f21;
+    .button__bar li.slick-active button {
+        opacity: .75;
+        color: #FFFFFF
+    }
+    .content{
+        position: relative;
+        .img{
+            width: 100%;
+            
+        }
+       .title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FFFFFF;
+            position: absolute;
+            left: 40px;
+            bottom: 40px;
+            z-index: 99;
+            width: 60%;
+       }
+    }
+   
+   @media only screen and (max-width: 470px) {
+    padding: 10px 10px 0;
+    width: 100%;
+    background-color:#0e0f21;
+    .content{
+        position: relative;
+        .img{
+            width: 100%;
+        }
+       .title{
+        font-size: 17px;
+            line-height: 30px;
+            position: absolute;
+            left: 20px;
+            bottom: 32px;
+            z-index: 99;
+            width: 90%;
+       }
+    }
+   }
+   @media only screen and (min-width: 471px)  and (max-width: 767px) {
+    padding: 20px 20px 0;
+    width: 100%;
+    background-color:#0e0f21;
+    .content{
+        position: relative;
+        .img{
+            width: 100%;
+        }
+       .title{
+        font-size: 25px;
+            line-height: 30px;
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            z-index: 99;
+            width: 90%;
+       }
+    }
+   }
+ 
+}

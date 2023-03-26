@@ -1,0 +1,152 @@
+.container{
+    padding: 0 148px 0 213px;
+    .content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            flex: 1;
+            margin-right: 70px;
+            .row{
+                flex: 1;
+                display: flex;
+                align-items: center; 
+                flex-flow: wrap;
+                .title{
+                    // width: 100%;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 40px;
+                    color: #FFFFFF;
+                }
+                .color{
+                    padding: 4px;
+                    background: linear-gradient(131.78deg, #0A26BD 0.06%, #018C96 53.14%, #61DE29 99.97%);
+                }
+            }
+            .text{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 26px;
+                color: #D6D6D6;
+                margin-top: 26px;
+                margin-bottom: 40px;
+            }
+        }
+        .right{
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+            .img{
+                border: 1px solid #000000;
+                width: 249px;
+                height: 418px; 
+                z-index: 1;
+            }
+            .img1{
+                border: 1px solid #000000;
+                width: 181px;
+                z-index: 2;
+                height: 418px;
+                transform: translate(-20%, -15%);
+            }
+            .img2{
+                transform: translate(-30%, 10%);
+                border: 1px solid #000000;
+                width: 249px;
+                height: 418px;
+                z-index: 3;
+
+            }
+        }
+    }
+
+    @media only screen and (max-width: 470px) {
+       padding: 0;
+       .content{
+            flex-direction: column;
+            .left{
+                margin-right: 0;
+                padding: 0 20px; 
+            }
+            .right{
+                flex-direction: column;
+                width: 100%;
+                padding: 0 20px;
+                .img{
+                    border: 1px solid #000000;
+                    width: 100%;
+                }
+                .img1{
+                    width: 100%;
+                    transform: translate(0);
+                    margin: 10px 0;
+                }
+                .img2{
+                    width: 100%;
+                    transform: translate(0);
+    
+                }
+            }
+       }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        padding: 0;
+        .content{
+             flex-direction: column;
+             .left{
+                 margin-right: 0;
+                 padding: 0 20px; 
+             }
+             .right{
+                 flex-direction: column;
+                 width: 100%;
+                 padding: 0 20px;
+                 .img{
+                     border: 1px solid #000000;
+                     width: 100%;
+                 }
+                 .img1{
+                     width: 100%;
+                     transform: translate(0);
+                     margin: 10px 0;
+                 }
+                 .img2{
+                     width: 100%;
+                     transform: translate(0);
+     
+                 }
+             }
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        padding: 0;
+        .content{
+             flex-direction: column;
+             .left{
+                 margin-right: 0;
+                 padding: 0 20px; 
+             }
+             .right{
+                 flex-direction: column;
+                 width: 100%;
+                 padding: 0 20px;
+                 .img{
+                     border: 1px solid #000000;
+                     width: 100%;
+                 }
+                 .img1{
+                     width: 100%;
+                     transform: translate(0);
+                     margin: 10px 0;
+                 }
+                 .img2{
+                     width: 100%;
+                     transform: translate(0);
+     
+                 }
+             }
+        }
+    }
+
+}

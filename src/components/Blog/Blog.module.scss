@@ -1,0 +1,38 @@
+.container{
+    background-color:#0e0f21;
+    .padding{
+        padding: 0 200px
+    }
+    .mrT40{
+        margin-top: 40px;
+    }
+    .banner{
+        margin-top: 50px;
+        margin-top: 40px;
+    }
+    .mr{
+        margin-top: 40px;
+        padding-bottom: 75px;  
+    }
+    @media only screen and (max-width: 470px) {
+        .padding{
+            padding: 0 10px
+        }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        .padding{
+            padding: 0 20px
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+        .padding{
+            padding: 0 40px
+        }
+    }
+    @media only screen and (min-width: 1024px) and (max-width: 1200px) {
+        .padding{
+            padding: 0 100px
+        }
+    }
+    
+}

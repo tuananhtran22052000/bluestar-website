@@ -1,0 +1,162 @@
+.container{
+    width: 100%;
+    .rowBetween{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 24px;
+        .title{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 40px;
+            color: #FFFFFF
+        }
+        .link{
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            text-align: right;
+            color: #44D965;
+        }
+    }
+    .content{
+        .item{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+            cursor: pointer;
+
+            .img{
+                border: 1px solid #4D4D4D;
+                border-radius: 8px;
+                width: 254px;
+                height: 184px;
+                margin-right: 16px;
+            }
+            .contentText{
+                flex:1;
+                .title{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 32px;
+                    color: #FFFFFF;
+                    margin-bottom: 8px;
+                    // width: 420px;
+                    display: -webkit-box;
+                    // max-height: 3.2rem;
+                   -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: normal;
+                    -webkit-line-clamp: 3;
+                }
+                .text{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #888888;
+                    width: 420px;
+                    display: -webkit-box;
+                    max-height: 3.2rem;
+                   -webkit-box-orient: vertical;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: normal;
+                    -webkit-line-clamp: 2;
+                    margin-bottom: 8px;
+                }
+                .row{
+                    display: flex;
+                    align-items: center;
+                    .status{
+                        padding: 7px 8px;
+                        background-color: #14245A;
+                        border-radius: 16px;
+                        font-weight: 700;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #FFFFFF;
+                    }
+                    .dot{
+                        width: 5px;
+                        height: 5px;
+                        border-radius: 50%;
+                        background-color: #888888;
+                        margin: 0 10px
+                    }
+                    .date{
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 18px;
+                        color: #888888;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 470px) {
+      width: 100%;
+       .rowBetween{
+        width: 100%;
+        padding: 0 20px;
+        .title{
+            font-size: 20px;
+        }
+        .link{
+            font-size: 14px;
+        }
+       }
+       .content{
+        width: 100%;
+        .item{
+            flex-direction: column;
+            padding: 0 10px;
+            .img{
+                margin-right: 0;
+                width: 100%;
+            }
+            .contentText{
+                padding: 0 10px;
+                width: 100%;
+                .title{
+                    -webkit-line-clamp: 2;
+                    
+                }
+                .text{
+                    width: 100%;
+                }
+            }
+        }
+       }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        // max-width: 470px;
+        .rowBetween{
+         width: 100%;
+        }
+        .content{
+            width: 100%;
+         
+         .item{
+             flex-direction: column;
+             padding: 0 20px;
+             .img{
+                 margin-right: 0;
+                 width: 100%;
+             }
+             .contentText{
+                //  padding: 0 20px;
+                 width: 100%;
+                 .title{
+                     -webkit-line-clamp: 2;
+                     
+                 }
+                 .text{
+                     width: 100%
+                 }
+             }
+         }
+        }
+    }
+}

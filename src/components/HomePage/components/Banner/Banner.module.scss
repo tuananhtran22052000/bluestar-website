@@ -1,0 +1,102 @@
+.container{
+
+    .rowBetween{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            .title{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 50px;
+                color: #FFFFFF;
+            }
+            .contentText{
+                margin-top: 10px;
+                margin-bottom: 43px;
+
+                .text{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #D6D6D6;
+                }
+            }
+        }
+        .right{
+            // flex: 1
+        }
+    }
+    @media only screen and (max-width: 470px) {
+        .rowBetween{
+            flex-direction: column;
+            align-items: center;
+            .left{
+                .title{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height:20px;
+                    color: #FFFFFF;
+                    max-width: 100%;
+                    padding: 0 10px
+                }
+                .contentText{
+                    margin-top: 10px;
+                    margin-bottom: 43px;
+    
+                    .text{
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 15px;
+                        padding: 0 10px
+                    }
+                }
+            }
+            .right{
+                .img{
+                    max-width: 100%;
+                }
+            }
+          }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        
+      .rowBetween{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        .left{
+            .title{
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 30px;
+                color: #FFFFFF;
+                max-width: 767px;
+            }
+            .contentText{
+                margin-top: 10px;
+                margin-bottom: 43px;
+
+                .text{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #D6D6D6;
+                    width: 100%;
+                }
+            }
+        }
+        .right{
+            .img{
+                max-width: 767px;
+            }
+        }
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+        .container{
+            margin-top: 50px;
+        }
+    }
+}

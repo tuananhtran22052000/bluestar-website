@@ -1,0 +1,46 @@
+.container{
+    padding:40px 200px 85px 200px;
+    background-color: #0C0C17;
+    .rowBetween{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        .left{
+            .img{
+                width: 160px;
+                height: 43px;
+            }
+            .text{
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 24px;
+                color: #888888;
+            }
+        }
+        .right{
+            .customText{
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 40px;
+                text-align: center;
+                color: #FFFFFF;
+                margin-bottom: 16;
+            }
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        padding:40px 20px 50px 20px;
+        .rowBetween{
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        .right{
+            margin-top: 30px;
+        }
+        }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1000px) {
+    padding:40px 100px 85px 100px;
+       
+    }
+}

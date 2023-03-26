@@ -1,0 +1,114 @@
+.container{
+    margin-top: 56px;
+    padding-bottom: 80px;
+    .title{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .content{
+            width: calc((100% - 40px) / 2);
+            padding: 32px;
+            background-color: #151833;
+            border-radius: 8px;
+            .contentRow{
+                display: flex;
+                align-items: center;
+                margin-bottom: 16px;
+                padding-bottom: 16px;
+                border-bottom: 1px solid #14245A;
+                .contentImg{
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    background-color: #FDE9E9;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 16px;
+                }
+                .rowPack{
+                    display: flex;
+                    align-items: center;
+                    .package{
+                        padding: 4px 16px;
+                        background-color: #23265B;
+                        border-radius: 16px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #DEE3F2;
+                    }
+                    .mr5{
+                        margin: 0 4px;
+                    }
+                }
+                .label{
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 25px;
+                    // text-align: center;
+                    color: #FFFFFF;
+                    margin-bottom: 16px;
+                }
+                .text{
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 22px;
+                    color: #44D965;
+                }
+                .description{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #D6D6D6;
+                    
+                }
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 470px) {
+        .row{
+            flex-direction: column;
+            .content{
+                width: 100%;
+                margin-top: 20px;
+                padding: 20px;
+                .contentRow{
+                    .rowPack{
+                        .package{
+                            padding: 4px 10px;
+                            font-size: 12px;
+                            line-height: 15px;
+                        }
+                    }
+                }
+               
+            }
+        }
+    }
+    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+        .row{
+            flex-direction: column;
+            .content{
+                width: 100%;
+                margin-top: 20px;
+                .rowPack{
+                    .package{
+                        padding: 4px 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}

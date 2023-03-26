@@ -1,0 +1,18 @@
+.container{
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background:linear-gradient(111.34deg, #007DA0 0%, #44D965 100%);
+    
+    .title{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: '#FFFFFF'
+    }
+}
