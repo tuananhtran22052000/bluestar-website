@@ -24,7 +24,7 @@ const ProductPackages = () => {
                     </div>
                 </div>
                 <p className={classes.description}>
-                Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button “Tải xuống ứng dụng" để xem full mô tả.
+                    Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button Tải xuống ứng dụng để xem full mô tả.
                 </p>
             </div>
             <div className={classes.content}>
@@ -45,7 +45,7 @@ const ProductPackages = () => {
                     </div>
                 </div>
                 <p className={classes.description}>
-                Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button “Tải xuống ứng dụng" để xem full mô tả.
+                Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button Tải xuống ứng dụng để xem full mô tả.
                 </p>
             </div>
         </div>
