@@ -1,3 +1,3 @@
 import Highlights from './Highlights'
 
-exp;ort default Highlights
+export default Highlights
