@@ -31,8 +31,8 @@ export default function Header({customHeader}){
         </div>
         
         <div className={classes.rowBetween}>
-          <Link href={'/product'} className={clsx(classes.menu, router?.asPath ==='/product' && classes.linkActive)}>Sản phẩm</Link>
-          <Link href={'/blog'} className={clsx(classes.menu, classes.mrBtn, router?.asPath ==='/blog' && classes.linkActive)} >Blog</Link>
+          {/* <Link href={'/product'} className={clsx(classes.menu, router?.asPath ==='/product' && classes.linkActive)}>Sản phẩm</Link>
+          <Link href={'/blog'} className={clsx(classes.menu, classes.mrBtn, router?.asPath ==='/blog' && classes.linkActive)} >Blog</Link> */}
           <PrimaryButton 
               title={'Tải ứng dụng'}
               className={classes.primary}
@@ -46,7 +46,7 @@ export default function Header({customHeader}){
                 className={classes.imgMenu}
             />
         </div>}
-        {openMenu  
+        {/* {openMenu  
         && <div className={classes.menu}>
             <div className={classes.close} >
             <Image 
@@ -62,8 +62,8 @@ export default function Header({customHeader}){
               <a className={classes.textMenu} onClick={handleClick}>Tải ứng dụng</a>
             </div>
            </div>
-        }
-        {openMenu && <div className={classes.blur} onClick={()=>setOpenMenu(false)} />}
+        } */}
+        {/* {openMenu && <div className={classes.blur} onClick={()=>setOpenMenu(false)} />} */}
         
     </div>
   )

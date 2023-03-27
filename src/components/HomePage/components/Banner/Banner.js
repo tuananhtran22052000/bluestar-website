@@ -11,7 +11,7 @@ const Banner = () => {
         <div className={classes.rowBetween}>
             <div className={classes.left}>
                 <p className={classes.title}>
-                    3.2% Đánh giá cổ phiếu Danh sách tiềm năng Điểm danh mục của bạn 4,8
+                Đầu tư hiệu quả dựa trên giá trị cốt lõi & bền vững
                 </p>
                 <div className={classes.contentText}>
                     <span className={classes.text}>  Mô tả giá trị này trong giới hạn hiển thị có thể tối đa là 3 dòng.</span><br/>

@@ -10,7 +10,7 @@ const ProductPackages = () => {
     <div className={classes.container}>
         <p className={classes.title}>Các gói sản phẩm</p>
         <div className={classes.row}>
-            <div className={classes.content}>
+            <div className={clsx(classes.content, classes.contPd)}>
                 <div className={classes.contentRow}>
                     <div className={classes.contentImg}>
                         <Image alt='img' 
@@ -24,7 +24,7 @@ const ProductPackages = () => {
                     </div>
                 </div>
                 <p className={classes.description}>
-                    Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button Tải xuống ứng dụng để xem full mô tả.
+                    Trải nghiệm miễn phí các tính năng cơ bản của BlueStar để tự mình lập kế hoạch đầu tư, đánh giá cổ phiếu và chia sẻ các thông tin hữu ích với bạn bè.
                 </p>
             </div>
             <div className={classes.content}>
@@ -45,7 +45,7 @@ const ProductPackages = () => {
                     </div>
                 </div>
                 <p className={classes.description}>
-                Mô tả về gói trong vài dòng ngắn gọn, có thể hiển thị tối đa đến 3 dòng. Nếu nhiều hơn thì ấn vào button Tải xuống ứng dụng để xem full mô tả.
+                Sử dụng tất cả các tính năng của BlueStar như một nhà đầu tư chuyên nghiệp đồng thời được trải nghiệm các sản phẩm đầu tư độc quyền và mới nhất.
                 </p>
             </div>
         </div>

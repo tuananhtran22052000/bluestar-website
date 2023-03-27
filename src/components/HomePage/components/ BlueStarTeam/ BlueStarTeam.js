@@ -1,49 +1,54 @@
 import React from 'react'
 import classes from './ BlueStarTeam.module.scss'
-import Rectangle22 from '../../../../../image/Rectangle22.png'
+
 import Image from 'next/image'
 import clsx from 'clsx'
 
+//img 
+import NgaNguyen from '../../../../../image/NgaNguyen.png'
+import DucCao from '../../../../../image/DucCao.png'
+import HoaTran from '../../../../../image/HoaTran.png'
+import HuongVu from '../../../../../image/HuongVu.png'
+import NamNguyen from '../../../../../image/NamNguyen.png'
+import QuangAnhPham from '../../../../../image/QuangAnhPham.png'
+import BachPham from '../../../../../image/BachPham.png'
+
+
 const data = [{
     id: 1,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: BachPham,
+    title: 'Founder & CEO',
+    name: 'Bach Pham'
 },{
     id: 2,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: HuongVu,
+    title: 'Founder & COO',
+    name: 'Huong Vu'
 },{
     id: 3,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: QuangAnhPham,
+    title: 'Founder & CFO',
+    name: 'Quang Anh Pham'
 },{
     id: 4,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: NamNguyen,
+    title: 'Founder & CIO',
+    name: 'Nam Nguyen'
 },{
     id: 5,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: DucCao,
+    title: 'Founder & CIO',
+    name: 'Duc Cao'
 },{
     id: 6,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: HoaTran,
+    title: 'Founder & CIO',
+    name: 'Hoa Tran'
 },{
     id: 7,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
-},{
-    id: 8,
-    img: Rectangle22,
-    title: 'title',
-    name: 'Nguyễn Văn A'
+    img: NgaNguyen,
+    title: 'Founder & CCO',
+    name: 'Nga Nguyen'
 }]
 const  BlueStarTeam = () => {
   return (

@@ -57,12 +57,12 @@
         position: relative;
         width: 100%;
         .rowBetween {
-            display: none;
+            // display: none;
 
         }
         .menuMobile{
            
-            display: block;
+            display: none;
             cursor: pointer;
             .imgMenu{
                 width: 30px;
