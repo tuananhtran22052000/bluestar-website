@@ -51,7 +51,7 @@
         .row{
             flex-direction: column;
             padding: 0 28px;
-            margin-top: 48px;
+            margin-top: 88px;
 
             .contentImg{
                 width: 100%;
@@ -81,7 +81,6 @@
         }
     }
     @media only screen and (min-width: 768px) and (max-width: 1000px) {
-        
         .row{
             margin-top: 48px;
             flex-direction: column;

@@ -138,6 +138,7 @@
                     font-size: 28px;
                     line-height: 35px;
                     text-align: center;
+                    margin-bottom: 24px;
                 }
                 .text{
                     font-weight: 500;
@@ -150,11 +151,12 @@
             
         }
         .content{
-            padding: 56px 0px;
+            padding: 40px 0px;
             left: 20px;
             right: 20px;
             height: 419px;
             width: 335px;
+            bottom: -45%;
             
             .title{
                 font-weight: 700;
@@ -166,7 +168,7 @@
             .text{
                 font-weight: 500;
                 font-size: 14px;
-                line-height: 26px;
+                line-height: 32px;
                 text-align: center;
                 width: 295px;
                 margin-left: 20px;
