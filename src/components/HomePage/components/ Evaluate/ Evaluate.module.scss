@@ -47,38 +47,39 @@
     }
    
    
-    @media only screen and (max-width: 470px) {
-        .rowBetween{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            .left{
-                .text{
-                    padding-right: 0;
-                    text-align: justify;
-                }
-            }
-            .right{
-                flex-direction: column;
-                width: 100%;
-                .item{
-                    width: 100%;
-                    .img{
-                        width: 100%;
-                        margin-top: 20px ;
-                    }
-                    .img1{
-                        transform: translateY(0);
-                    }
-                    .img2{
-                        transform: translateY(0);
-                    }
-                }
-            }
-        }
+    // @media only screen and (max-width: 300px) {
+    //     .rowBetween{
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         .left{
+    //             .text{
+    //                 padding-right: 0;
+    //                 text-align: justify;
+    //             }
+    //         }
+    //         .right{
+    //             flex-direction: column;
+    //             width: 100%;
+    //             .item{
+    //                 width: 100%;
+    //                 .img{
+    //                     width: 100%;
+    //                     margin-top: 20px ;
+    //                 }
+    //                 .img1{
+    //                     transform: translateY(0);
+    //                 }
+    //                 .img2{
+    //                     transform: translateY(0);
+    //                 }
+    //             }
+    //         }
+    //     }
        
-    }
-    @media only screen and (min-width: 471px)  and (max-width: 767px) {
+    // }
+    @media only screen   and (max-width: 767px) {
+        width:  100%;
         .rowBetween{
             display: flex;
             flex-direction: column;
@@ -93,18 +94,20 @@
                 }
             }
             .right{
-                flex-flow: wrap;
+                // flex-flow: wrap;
+                width:  100%;
+
                 .item{
-                    width: calc((100% - 10px) / 2);
+                    width: calc((100% - 20px) / 3);
                     .img{
                         width: 100%;
                         margin-top: 20px ;
                     }
                     .img1{
-                        transform: translateY(0);
+                        transform: translateY(60px);
                     }
                     .img2{
-                        transform: translateY(0);
+                        transform: translateY(-30px);
                     }
                 }
             }
