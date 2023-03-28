@@ -24,32 +24,34 @@ const data = [{
     img: HuongVu,
     title: 'Founder & COO',
     name: 'Huong Vu'
-},{
-    id: 3,
-    img: QuangAnhPham,
-    title: 'Founder & CFO',
-    name: 'Quang Anh Pham'
-},{
-    id: 4,
-    img: NamNguyen,
-    title: 'Founder & CIO',
-    name: 'Nam Nguyen'
-},{
-    id: 5,
-    img: DucCao,
-    title: 'Founder & CIO',
-    name: 'Duc Cao'
-},{
-    id: 6,
-    img: HoaTran,
-    title: 'Founder & CIO',
-    name: 'Hoa Tran'
-},{
-    id: 7,
-    img: NgaNguyen,
-    title: 'Founder & CCO',
-    name: 'Nga Nguyen'
-}]
+}
+// ,{
+//     id: 3,
+//     img: QuangAnhPham,
+//     title: 'Founder & CFO',
+//     name: 'Quang Anh Pham'
+// },{
+//     id: 4,
+//     img: NamNguyen,
+//     title: 'Founder & CIO',
+//     name: 'Nam Nguyen'
+// },{
+//     id: 5,
+//     img: DucCao,
+//     title: 'Founder & CIO',
+//     name: 'Duc Cao'
+// },{
+//     id: 6,
+//     img: HoaTran,
+//     title: 'Founder & CIO',
+//     name: 'Hoa Tran'
+// },{
+//     id: 7,
+//     img: NgaNguyen,
+//     title: 'Founder & CCO',
+//     name: 'Nga Nguyen'
+// }
+]
 const  BlueStarTeam = () => {
   return (
     <div className={classes.container}> 
