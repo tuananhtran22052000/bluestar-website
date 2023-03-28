@@ -36,19 +36,11 @@
     }
     
 
-    @media only screen and (max-width: 470px) {
-        .img{
-            margin-top: 64px;
-            margin-left: 20px;
-            width: 147px;
-            height: 40px;
-        }
-    }
     @media only screen and (max-width: 767px) {
         padding: 0 20px;
         .img{
-            width: 200px;
-            height: 65px;
+            width: 147px;
+            height: 147px;
             object-fit: contain;
         }
     }
