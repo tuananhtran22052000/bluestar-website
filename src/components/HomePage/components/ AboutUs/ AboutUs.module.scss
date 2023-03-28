@@ -98,76 +98,82 @@
    
     
     @media only screen and (max-width: 470px) {
-        .rowBetween{
-            flex-direction: column;
-            width: 100%;
-            .left{
+        .container{
+            height: 840px;
+            margin-top: 0px;
+            .rowBetween{
+                flex-direction: column;
                 width: 100%;
-                padding: 0 10px;
-                margin-bottom: 20px;
-                .row{
-                    display: flex;
-                    margin-right: 20px;
-                    // align-items: center;
-                    .img{
-                        width: 36;
-                        height: 30;
+                .left{
+                    width: 100%;
+                    padding: 0 10px;
+                    margin-bottom: 20px;
+                    .row{
+                        display: flex;
+                        margin-right: 20px;
+                        // align-items: center;
+                        .img{
+                            width: 36;
+                            height: 30;
+                        }
+                        .text{
+                            font-size: 24px;
+                            line-height: 32px;
+                            width: 300px;
+                            text-align: center;
+                        }
+                        
                     }
-                    .text{
-                        font-size: 24px;
-                        line-height: 32px;
-                        width: 300px;
+                    .contentImg{
+                        display: flex;
+                        justify-content: flex-end;
+                    }
+                }
+
+                .right{
+                    margin-left:0;
+                    height: 364px;
+                    width: 295px;
+                    .title{
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 40.32px;
                         text-align: center;
                     }
-                    
+                    .text{
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 26px;
+                        text-align: center;
+                        width: 295px;
+                    }
                 }
-                .contentImg{
-                    display: flex;
-                    justify-content: flex-end;
-                }
+                
+            
             }
-
-            .right{
-                margin-left:0;
-                padding: 40px 20px 0px 20px;
-                height: 364px;
-                width: 295px;
+            .content{
+                padding: 56px 0px;
+                left: 20px;
+                right: 20px;
+                height: 419px;
+                width: 335px;
+                
                 .title{
                     font-weight: 700;
                     font-size: 32px;
                     line-height: 40.32px;
+                    margin-bottom: 10px;
+                    text-align: center;
                 }
                 .text{
                     font-weight: 500;
                     font-size: 14px;
                     line-height: 26px;
-                    width: 100%;
                     text-align: center;
+                    width: 295px;
+                    margin-left: 20px;
+                    margin-right: 20px;
                 }
-            }
-            
-           
-        }
-        .content{
-            padding: 56px 10px;
-            left: 20px;
-            right: 20px;
-            bottom: -45%;
-            height: 419px;
-            width: 335px;
-            
-            .title{
-                font-weight: 700;
-                font-size: 32px;
-                line-height: 40.32px;
-                margin-bottom: 10px;
-            }
-            .text{
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 26px;
-                width: 100%;
-                text-align: center;
             }
         }
     }
