@@ -23,7 +23,7 @@ const ProductPackages = () => {
                         <p className={classes.text}>Miễn phí</p>
                     </div>
                 </div>
-                <p className={classes.description1}>
+                <p className={classes.description}>
                     Trải nghiệm miễn phí các tính năng cơ bản của BlueStar để tự mình lập kế hoạch đầu tư, đánh giá cổ phiếu và chia sẻ các thông tin hữu ích với bạn bè.
                 </p>
             </div>
@@ -44,7 +44,7 @@ const ProductPackages = () => {
                         </div>
                     </div>
                 </div>
-                <p className={classes.description1}>
+                <p className={classes.description}>
                 Sử dụng tất cả các tính năng của BlueStar như một nhà đầu tư chuyên nghiệp đồng thời được trải nghiệm các sản phẩm đầu tư độc quyền và mới nhất.
                 </p>
             </div>
