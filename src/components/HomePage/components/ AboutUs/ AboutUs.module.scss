@@ -108,16 +108,19 @@
                 .row{
                     width: 100%;
                     display: flex;
+                    margin-left: 37px;
+                    margin-right: 37px;
                     // align-items: center;
                     .img{
                         width: 36;
                         height: 30;
                     }
                     .text{
-                        font-size: 15px;
-                        line-height: 20px;
+                        font-size: 24px;
+                        line-height: 32px;
                         width: 100%;
-                        padding: 0 10px
+                        padding: 0 10px;
+                        text-align: center;
                     }
                     
                 }
@@ -129,17 +132,18 @@
 
             .right{
                 margin-left:0;
-                padding: 0 20px;
+                padding: 40px 20px 0px 20px;
                 .title{
                     font-weight: 700;
-                    font-size: 20px;
-                    line-height: 25px;
+                    font-size: 32px;
+                    line-height: 40.32px;
                 }
                 .text{
-                    font-size: 15px;
-                    line-height: 15px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 26px;
                     width: 100%;
-                    text-align: justify;
+                    text-align: center;
                 }
             }
             
@@ -150,18 +154,21 @@
             left: 20px;
             right: 20px;
             bottom: -45%;
+            height: 419px;
+            width: 335px;
             
             .title{
                 font-weight: 700;
-                font-size: 20px;
-                line-height: 25px;
+                font-size: 32px;
+                line-height: 40.32px;
                 margin-bottom: 10px;
             }
             .text{
-                font-size: 15px;
-                line-height: 15px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 26px;
                 width: 100%;
-                text-align: justify;
+                text-align: center;
             }
         }
     }
