@@ -35,9 +35,13 @@
             flex-direction: column;
             width: 100%;
             align-items: center;
-        .right{
-            margin-top: 30px;
-        }
+            .right{
+                margin-top: 30px;
+            }
+            .customText{
+                font-size: 28px;
+                line-height: 35px;
+            }
         }
     }
     @media only screen and (min-width: 768px) and (max-width: 1000px) {
