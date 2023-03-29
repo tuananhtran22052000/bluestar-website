@@ -19,7 +19,7 @@ const ProductPackages = () => {
                         />
                     </div>
                     <div>
-                        <p className={classes.label}>Gói Cơ Bản</p>
+                        <p className={classes.label}>Gói Basic</p>
                         <p className={classes.text}>Miễn phí</p>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ const ProductPackages = () => {
                         />
                     </div>
                     <div>
-                        <p className={classes.label}>Gói Cơ Bản</p>
+                        <p className={classes.label}>Gói Premium</p>
                         <div className={classes.rowPack}>
                             <div className={classes.package}>3 tháng</div>
                             <div className={clsx(classes.package, classes.mr5)}>6 tháng</div>
