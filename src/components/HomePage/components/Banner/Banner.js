@@ -3,7 +3,7 @@ import classes from './Banner.module.scss'
 import Image from 'next/image'
 import DownApp from 'app//components/DownApp'
 
-import heroImg from '../../../../../image/heroImg.png'
+import heroImg from '../../../../../image/hero-img-min.png'
 
 const Banner = () => {
   return (
