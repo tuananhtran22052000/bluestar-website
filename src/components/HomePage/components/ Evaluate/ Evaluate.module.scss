@@ -36,11 +36,19 @@
             .item{
                 width: calc((100% - 32px) / 3);
                
+                .img {
+                    width: 180px;
+                    height: 380px;
+                }
                 .img1{
                     transform: translateY(60px);
+                    width: 180px;
+                    height: 380px;
                 }
                 .img2{
                     transform: translateY(-30px);
+                    width: 180px;
+                    height: 380px;
                 }
             }
         }
