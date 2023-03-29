@@ -19,9 +19,9 @@ const  Evaluate = () => {
                     <p className={clsx(classes.title, classes.color)}>Độc Quyền</p>
                 </div>
                 <p className={classes.text}>
-                    BlueStar sử dụng phương pháp kết hợp giữa đánh giá của đội ngũ và hệ thống đánh giá định lượng thành 6 tiêu chí lớn quan trọng và cần thiết để dự báo tiềm năng và cơ hội đầu tư đối với từng cổ phiếu trong tương lai.<br/> 
-                    Bộ tiêu chí đầu tư và phương pháp luận được đúc kết và tổng hợp theo các tiêu chuẩn đầu tư cao nhất trên thế giới  được các huyền thoại đầu tư sử dụng như: Warren Buffett, Charlie Munger hay Peter Lynch... <br/> 
-                    Bộ tiêu chí đầu tư gồm 6 tiêu chí lớn và 36 tiêu chí con của BlueStar là sản phẩm độc quyền và duy nhất tại Việt Nam đã được đăng ký sở hữu trí tuệ.
+                    BlueStar sử dụng phương pháp kết hợp giữa đánh giá của đội ngũ chuyên gia và hệ thống đánh giá định lượng thành 6 tiêu chí lớn quan trọng và cần thiết để dự báo tiềm năng và cơ hội đầu tư đối với từng cổ phiếu trong tương lai.
+                    Bộ tiêu chí đầu tư và phương pháp luận được đúc kết và tổng hợp theo các tiêu chuẩn đầu tư cao nhất trên thế giới được các huyền thoại đầu tư sử dụng như: Warren Buffett, Charlie Munger hay Peter Lynch...
+                    Bộ tiêu chí đầu tư của BlueStar là sản phẩm độc quyền và duy nhất tại Việt Nam đã được đăng ký sở hữu trí tuệ.
                 </p>
             </div>
             <div className={classes.right}>

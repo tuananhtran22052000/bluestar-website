@@ -16,7 +16,7 @@ const data = [{
     id: 2,
     img: imgChart,
     text: 'Phân tích dữ liệu',
-    description: 'Giúp nhà đầu tư tự tin trong việc ra quyết định nhờ được tiếp sức bởi cam kết của chúng tôi về các nghiên cứu hệ thống nhất quán'
+    description: 'Giúp nhà đầu tư tự tin trong việc ra quyết định nhờ được tiếp sức bởi cam kết của chúng tôi về các nghiên cứu hệ thống nhất quán.'
 },{
     id: 3,
     img: imgMessages,

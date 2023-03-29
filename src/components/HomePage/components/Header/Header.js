@@ -5,7 +5,7 @@ import clsx from 'clsx'
 import Image from 'next/image'
 import Link from 'next/link'
 // images
-import logoLandscape from '../../../../../image/logoLandscape.png'
+import logoLandscape from '../../../../../image/logo-landscape.png'
 import { useRouter } from 'next/router'
 import menuMobile from '../../../../../image/menuMobile.svg'
 import iconClose from '../../../../../image/closeIcon.svg'
