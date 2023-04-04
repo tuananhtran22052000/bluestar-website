@@ -19,11 +19,13 @@ const DownApp = ({customText}) => {
                 className={classes.img}
             />
             </a>
+            <a href='https://play.google.com/store/apps/details?id=com.bluestarinvestment'>
              <Image 
                 src={googlePlay}
                 alt="img"
                 className={clsx(classes.img, classes.mr)}
             />
+            </a>
         </div>
     </div>
   )
