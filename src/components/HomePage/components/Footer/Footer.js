@@ -19,8 +19,8 @@ const Footer = () => {
                 </Link>
                 <p className={classes.text}>Công ty cổ phần BlueStar</p>
                 <p className={classes.text}>Địa chỉ: 2F Quang Trung, P. Trần Hưng Đạo, Q. Hoàn Kiếm, Hà Nội, Việt Nam</p>
-                <p>Email: <a href="mailto:contact@bluestarinvestment.vn">contact@bluestarinvestment.vn</a></p>
-                <p>Hotline: <a href="tel:+84346996162">+8434 699 6162</a></p>
+                <p className={classes.text}>Email: <a href="mailto:contact@bluestarinvestment.vn">contact@bluestarinvestment.vn</a></p>
+                <p className={classes.text}>Hotline: <a href="tel:+84346996162">+8434 699 6162</a></p>
                 <p className={classes.text}>© 2022 | Bản quyền thuộc về BlueStar</p>
             </div>
             <div className={classes.right}>
