@@ -9,6 +9,8 @@ import logoLandscape from '../../../../../image/logo-landscape.png'
 import { useRouter } from 'next/router'
 import menuMobile from '../../../../../image/menuMobile.svg'
 import iconClose from '../../../../../image/closeIcon.svg'
+import {isAndroid, isIOS} from "react-device-detect"
+
 
 export default function Header({customHeader}){
   const [openMenu, setOpenMenu] = useState(false)
@@ -18,6 +20,20 @@ export default function Header({customHeader}){
   const handleClick =() =>{
     setOpenMenu(false)
   }
+
+  const handleClickDownloadApp =() =>{
+    if (isAndroid) {
+      window.location.href =
+        "https://play.google.com/store/apps/details?id=com.bluestarinvestment";
+    }else if(isIOS) {
+      window.location.href =
+        "https://apps.apple.com/vn/app/bluestar-investment/id1662455149";
+    } else{
+      window.location.href =
+        "https://apps.apple.com/vn/app/bluestar-investment/id1662455149";
+    }
+  }
+
   return (
     <div className={clsx(classes.container, customHeader)}>
         <div className={classes.contentImg}>
@@ -36,6 +52,7 @@ export default function Header({customHeader}){
           <PrimaryButton 
               title={'Tải ứng dụng'}
               className={classes.primary}
+              onClick={handleClickDownloadApp}
           />
         </div>
 
